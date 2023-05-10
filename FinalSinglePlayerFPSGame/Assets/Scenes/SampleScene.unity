@@ -258,6 +258,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!20 &654947459 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 4105138311988260873, guid: 22d24321834e84634bcf4b55433aee9c, type: 3}
+  m_PrefabInstance: {fileID: 4105138311293640058}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -1009,6 +1014,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
+  gravity: -9.8
+  jumpHeight: 3
 --- !u!114 &4105138311293640061
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1021,3 +1028,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e56e2e1e3e7e42fa967b818d2e00ef4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &4105138311293640062
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4105138311293640059}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5949bd66b52864ee0817385c10c84ae7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cam: {fileID: 654947459}
+  xSensitivity: 30
+  ySensitivity: 30
