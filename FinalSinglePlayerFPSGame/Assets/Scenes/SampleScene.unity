@@ -1016,6 +1016,10 @@ MonoBehaviour:
   speed: 5
   gravity: -9.8
   jumpHeight: 3
+  crouchTimer: 0
+  lerpCrouch: 0
+  crouching: 0
+  sprinting: 0
 --- !u!114 &4105138311293640061
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1041,5 +1045,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cam: {fileID: 654947459}
-  xSensitivity: 30
-  ySensitivity: 30
+  xSensitivity: 65
+  ySensitivity: 65
