@@ -348,6 +348,9 @@
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/Input/PlayerInput.cs"
 "Assets/Scripts/InputManager.cs"
+"Assets/Scripts/Interactable.cs"
+"Assets/Scripts/Interactables/Keypad.cs"
+"Assets/Scripts/PlayerInteract.cs"
 "Assets/Scripts/PlayerLook.cs"
 "Assets/Scripts/PlayerMotor.cs"
 -langversion:9.0
