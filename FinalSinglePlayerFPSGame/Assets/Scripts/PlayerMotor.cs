@@ -17,14 +17,13 @@ public class PlayerMotor : MonoBehaviour
     public float  jumpHeight = 3f;
 
     [Header("Crouch Settings")]
-    public float crouchTimer;
-    public bool lerpCrouch;
-    public bool crouching;
+    private float crouchTimer;
+    private bool lerpCrouch;
+    private bool crouching;
 
     [Header("Sprinting Settings")]
     public bool sprinting;
     
-
 
     // Start is called before the first frame update
     void Start()
